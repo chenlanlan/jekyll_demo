@@ -1,12 +1,24 @@
---- 
-layout: default
-title: My Blog
-—
-<h2>{{ page.title }}</h2>
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <title>My Blog</title>
+    </head>
+    <body>
+    <h2>My Blog</h2>
 <p>Recent Blog Posts</p>
 <ul>
-        {% for post in site.posts %}
-            <li>{{ post.date | date_to_string }}
-            <a href=“{{site.baseurl }}{{ post.url }}”>{{ post.titile }}</a>
-        {% end for %}
+    
+       <li>27 Jul 2015
+       <a href="jekyll_demo/2015/07/27/newBlog.html">神奇猪传奇</a>
+       </li>
+    
+       <li>27 Jul 2015
+       <a href="jekyll_demo/2015/07/27/Hello-World.html">Hello 胖胖</a>
+       </li>
+    
 </ul>
+
+    </body>
+<html/>
