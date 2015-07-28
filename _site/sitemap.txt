@@ -1,0 +1,12 @@
+
+http://enml.github.io/blog/archive.html
+http://enml.github.io/blog/atom.xml
+http://enml.github.io/blog/categories.html
+http://enml.github.io/blog/index.html
+http://enml.github.io/blog/pages.html
+http://enml.github.io/blog/rss.xml
+http://enml.github.io/blog/sitemap.txt
+http://enml.github.io/blog/tags.html
+
+http://enml.github.io/blog/2015/07/27/newBlog
+http://enml.github.io/blog/2015/07/27/Hello-World
