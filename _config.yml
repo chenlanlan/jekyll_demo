@@ -1,8 +1,8 @@
 baseurl: /jekyll_demo
-name: ""
-description: ""
+name: "Silan's Blog"
+description: "Learning"
 
-url: "http://localhost:4000"
+url: "chensilan.me"
 
 paginate: 10
 
