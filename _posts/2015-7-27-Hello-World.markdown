@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Hello 胖胖
+layout: post
+title: Hello world
 ---
 
 ## {{ page.title }}
