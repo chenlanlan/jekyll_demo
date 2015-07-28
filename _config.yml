@@ -5,38 +5,60 @@ description: "Learning"
 url: "chensilan.me"
 
 paginate: 10
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+safe: false
 
-title:            Silan's Blog
-description:      Write down something to record~
-logo:             site-logo.png
-disqus_shortname: shortname
-search:           true
-url:              http://localhost:4000
-
-# Owner/author information
-owner:
-  name:           Silan(Sally) Chen
-  avatar:         your-photo.jpg
-  email:          silan0318@gmail.com
+title:  Silan's Blog
+tagline: Site Tagline
+author: 
+  name: Silan(Sally) Chen
+  email:  silan0318@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   facebook: https://www.facebook.com/profile.php?id=100006754483664
   github: https://github.com/chenlanlan
   linkedin: https://www.linkedin.com/in/silanchen
 
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: Facebook
-    url: https://www.facebook.com/profile.php?id=100006754483664
-  - title: Github
-    url: /https://github.com/chenlanlan
-  - title: Linkedin
-    url: https://www.linkedin.com/in/silanchen
-    external: true
+production_url : http://chenlanlan.github.io/jekyll_demo
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-markdown:    kramdown
+JB :
+  version : 0.3.0
 
+BASE_PATH : /blog
+ASSET_PATH : False
+
+ archive_path: /archive.html
+  categories_path : /categories.html
+  tags_path : /tags.html
+  atom_path : /atom.xml
+  rss_path : /rss.xml
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   pretty
+
+comments :
+    provider : disqus
+    disqus :
+      short_name : jekyllbootstrap
+    livefyre :
+      site_id : 123
+    intensedebate :
+      account : 123abc
+    facebook :
+      appid : 123
+      num_posts: 5
+      width: 580
+      colorscheme: light
+
+  analytics :
+    provider : google 
+    google : 
+        tracking_id : 'UA-50637568-1'
+    getclicky :
+      site_id : 
+    mixpanel :
+        token : '_MIXPANEL_TOKEN_'
+    piwik :
+        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
+        idsite : '1'  
+
+ sharing :
+    provider : false
