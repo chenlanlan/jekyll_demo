@@ -17,7 +17,7 @@ tagline: Write down something to record...
       		</div> 
 		{{ post.content  | | split:'<!--break-->' | first }}
 	<div class = "read_more">
-		<a class="fa fa-link" href="{{ BASE_PATH }}{{ post.url }}">  查看全文&hellip;</a>
+		<a class="fa fa-link" href="{{ post.url }}">  查看全文&hellip;</a>
 	</div>
 	
 </div>
