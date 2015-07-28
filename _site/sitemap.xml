@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//www.strathseds.org/static/stylesheets/sitemap.xls"?>
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+	<loc>//chensilan.me</loc>
+	<changefreq>daily</changefreq>
+	<priority>1.0</priority>
+	</url>
+
+	<url>
+	<loc>//chensilan.me/2015/07/27/newBlog/</loc>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+	</url>
+
+	<url>
+	<loc>//chensilan.me/2015/07/27/Hello-World/</loc>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+	</url>
+
+
+    
+    
+
+    
+    
+
+    
+	<url>
+	<loc>//chensilan.me/projects/REXUS/FRODO/</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.8</priority>
+	</url>
+    
+
+    
+	<url>
+	<loc>//chensilan.me/projects/PPT/</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.8</priority>
+	</url>
+    
+
+    
+	<url>
+	<loc>//chensilan.me/projects/REXUS/SAM/</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.8</priority>
+	</url>
+    
+
+    
+	<url>
+	<loc>//chensilan.me/projects/REXUS/SHIRE/</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.8</priority>
+	</url>
+    
+
+    
+	<url>
+	<loc>//chensilan.me/about/</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.8</priority>
+	</url>
+    
+
+    
+	<url>
+	<loc>//chensilan.me/projects/air-space-transport/</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.8</priority>
+	</url>
+    
+
+    
+    
+
+    
+    
+
+    
+	<url>
+	<loc>//chensilan.me/projects/</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.8</priority>
+	</url>
+    
+
+    
+	<url>
+	<loc>//chensilan.me/</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.8</priority>
+	</url>
+    
+
+    
+	<url>
+	<loc>//chensilan.me/projects/REXUS/</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.8</priority>
+	</url>
+    
+
+    
+	<url>
+	<loc>//chensilan.me/posts/</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.8</priority>
+	</url>
+    
+
+    
+	<url>
+	<loc>//chensilan.me/projects/rocket-competition/</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.8</priority>
+	</url>
+    
+
+    
+	<url>
+	<loc>//chensilan.me/signup/</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.8</priority>
+	</url>
+    
+
+    
+    
+
+</urlset>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Silan's Blog</title>
+		<description>Write down to record</description>
+		<link>http://chensilan.me</link>
+		
+			<item>
+				<title>神奇猪传奇</title>
+				<description>&lt;h2&gt;神奇猪传奇&lt;/h2&gt;
+
+&lt;p&gt;有一天神奇猪来到了神奇世界，发现，这个世界真是太神奇了！&lt;/p&gt;
+
+&lt;p&gt;27 Jul 2015&lt;/p&gt;
+</description>
+				<published>2015-07-27 00:00:00 -0700</published>
+				<link>http://chensilan.me/2015/07/27/newBlog/</link>
+			</item>
+		
+			<item>
+				<title>Hello 胖胖</title>
+				<description>&lt;h2&gt;Hello 胖胖&lt;/h2&gt;
+
+&lt;p&gt;胖胖是个神奇猪&lt;/p&gt;
+
+&lt;p&gt;27 Jul 2015&lt;/p&gt;
+</description>
+				<published>2015-07-27 00:00:00 -0700</published>
+				<link>http://chensilan.me/2015/07/27/Hello-World/</link>
+			</item>
+		
+	</channel>
+</rss>
