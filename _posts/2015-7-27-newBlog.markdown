@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  First Blog
+tags: Test
+Categories: Test
 ---
 
 This is my first blog!
