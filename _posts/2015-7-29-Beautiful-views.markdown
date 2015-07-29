@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  First Blog
+title:  HighWay 1 Views
 tags: Images
 Categories: Daily Life
 ---
