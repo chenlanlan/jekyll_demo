@@ -1,96 +1,40 @@
-# Name of your blog (this will show up at the top of your page and in the RSS feed)
-name: Silan's Blog
+# Site settings
+title: Silan's Blog
+email: silan0318@gmail.com
+description: "Python,Java,HTML,CSS,Machine Leaning"
+permalink: /:year/:month/:day/:title.html
+baseurl: ""
+url: "http://chenlanlan.me"
+atom-baseurl: "http://chenlanlan.me"
+author: "Silan Chen"
 
-# Short description (goes below the title; it will also be used in the RSS feed)
-description: Write down to record
+# Build settings
+# permalink: date
 
-# Your name, as you want it to appear underneath each post and in the footer
-author: Silan(Sally) Chen
+#highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: [fenced_code_blocks,no_intra_emphasis,strikethrough,no_intra_emphasis,autolink,tables]
 
-# Logo image
-logo: //www.strathseds.org/static/images/logos/strathseds-200px.png
+#duoshuo
+  comments :
+    provider : duoshuo
+    duoshuo :
+      short_name : taizilongxu
 
-# Your email if you want it to be linked on the contact page
-contact_email: silan@163@gmail.com
-
-# Are we in freshers fair mode?
-freshers: 0
-
-# It's XMAS!
-xmas: 0
-
-# Committee data
-committee_positions: [president, vp, secretary, treasurer, cto, outreach, social, comms]
-committee:
-  president:
-    name: Jennifer Miller
-    gravatar: 29e309f15dc5748a962f13185d90bf62
-    email: president@strathseds.org
-    position: President
-  vp:
-    name: Neal Stokes
-    gravatar: 29e309f15dc5748a962f13185d90bf62
-    email: vicepresident@strathseds.org
-    position: Vice-president
-  secretary:
-    name: Liam Quinn 
-    gravatar: 29e309f15dc5748a962f13185d90bf62
-    email: secretary@strathseds.org
-    position: Vice-president
-  treasurer:
-    name: Ben Turner
-    gravatar: 29e309f15dc5748a962f13185d90bf62
-    email: treasurer@strathseds.org
-    position: Treasurer
-  cto:
-    name: Adam McGhie
-    gravatar: 29e309f15dc5748a962f13185d90bf62
-    email: cto@strathseds.org
-    position: Chief Technology Officer
-  outreach:
-    name: Gregor Baird
-    gravatar: 29e309f15dc5748a962f13185d90bf62
-    email: contact@strathseds.org
-    position: Outreach Coordinator
-  social:
-    name: Ryan Matheson
-    gravatar: 29e309f15dc5748a962f13185d90bf62
-    email: contact@strathseds.org
-    position: Social Coordinator
-  comms:
-    name: Dan O'Brien
-    gravatar: 29e309f15dc5748a962f13185d90bf62
-    email: contact@strathseds.org
-    position: Social Coordinator
-
-  
-
-# The URL of your actual domain. This will be used to make absolute links in the RSS feed.
-baseurl: //chensilan.me
-url: //chensilan.me
-projecturl: //chenlanlan.github.io/jekyll_demo/
-
-# Static URL's
-staticurl: //www.strathseds.org/static
-imageurl: //www.strathseds.org/static/images/
-
-facebook_page_name: Chensilan
-
-# Misc
-future: false
-
-#### Under the Hood Stuff #####
-
-# Use rdiscount as the markdown engine because it generates html5 compliant code for stuff like footnotes
-# If you use maroku (default engine) some of your generated pages may not validate or lint as html5
-# If you don't have it install it via gem install rdiscount
-markdown: rdiscount
-
-# Continue compiling even if there are errors. Keep it true, unless troubleshooting.
-auto: true
-
-# Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
-permalink: pretty
-
-# Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: README.md, package.json, grunt.js, Gruntfile.js, node_modules, gen.sh, Gemfile
+navigations:
+  - title: About
+    class: fa fa-list-ul
+    href: /about/
+  - title: Archive
+    class: fa fa-tags
+    href: /archive/
+  - title: Categories
+    class: fa fa-user
+    href: /categories/
+  - title: Tags
+    class: fa fa-film
+    href: /tags/
+  - title: Rss
+    class: fa fa-rss
+    href: /atom.xml

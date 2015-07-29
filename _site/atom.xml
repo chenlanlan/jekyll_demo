@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title></title>
+        <description>Python,Java,HTML,CSS,Machine Leaning</description>      
+        <link>http://chenlanlan.me</link>
+        <atom:link href="http://chenlanlan.me/feed.xml" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>Hello World</title>
+                        
+                
+                    <description>—
+layout: default
+title: Hello New World
+—
+
+</description>
+                
+                <pubDate>Mon, 27 Jul 2015 00:00:00 -0700</pubDate>
+                <link>http://chenlanlan.me/2015/07/27/Hello-World.html</link>
+                <guid isPermaLink="true">http://chenlanlan.me/2015/07/27/Hello-World.html</guid>
+            </item>
+        
+    </channel>
+</rss>
