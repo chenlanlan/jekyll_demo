@@ -35,6 +35,6 @@ navigations:
   - title: Tags
     class: fa fa-film
     href: /tags/
-  - title: Rss
+  - title: Contact
     class: fa fa-rss
-    href: /atom.xml
+    href: /contact
