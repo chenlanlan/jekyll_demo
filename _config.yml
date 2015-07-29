@@ -7,7 +7,7 @@ baseurl: ""
 url: "//chensilan.me"
 atom-baseurl: "chensilan.me"
 author: "SilanChen"
-img_url: http://chenlanlan.github.com/jekyll_demo/img
+img_url: http://chenlanlan.github.io/jekyll_demo/img
 # Build settings
 # permalink: date
 
