@@ -2,7 +2,7 @@
 layout: post
 title:  HighWay 1 Views
 tags: Images
-Categories: Daily Life
+categories: Daily Life
 ---
 ![highway]({{ site.img_url }}/blog/highway.jpg)
 
