@@ -19,7 +19,7 @@ redcarpet:
   comments :
     provider : duoshuo
     duoshuo :
-      short_name : taizilongxu
+      short_name : chensilan
 
 navigations:
   - title: About
