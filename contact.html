@@ -1,0 +1,57 @@
+---
+title: About
+permalink: /about/
+---
+
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <style type="text/css" media="screen">
+        .wrap1 {
+            margin: 0px;
+            margin-bottom: 200px;
+            #overflow: hidden;
+            #position: relative;
+            text-align: center;
+            display:inline；
+        }
+        .wrap2 {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            text-align:center;
+            color:#4B0091;
+            font-family:verdana;
+        }
+        .wrap3 {
+            margin-top: 10px;
+            text-align:center;
+            font-size:300%;
+        }
+        .box {
+            text-align: center;
+            #position: relative;
+            display: inline-block;
+        }
+        @-webkit-keyframes firstlayer /* Safari 和 Chrome */ {
+            from {top: 200px;}
+            to {top: 0;}
+        }
+    </style>
+    <body>
+        {% include header.html %}
+        <div class="wrap3">
+          <p>My Skills</p>
+        <p>
+        <div class="wrap1">
+            <div class="box">
+                <img id="img-1" src="{{ site.img_url }}/about/python.png" alt=""width="100" height="100"/>
+                <img id="img-2" src="{{ site.img_url }}/about/javalogo.png" alt="" width="100" height="100"/>
+                <img id="img-3" src="{{ site.img_url }}/about/git-logo.png" alt="" width="100" height="100"/>
+                <img id="img-4" src="{{ site.img_url }}/about/HTML5_logo.png" alt="" width="100" height="100"/>
+            </div>
+            </div>
+      </div>
+      </p>
+        {% include footer.html %}
+    </body>
+</html>
