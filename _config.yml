@@ -11,7 +11,7 @@ img_url: http://chenlanlan.github.io/jekyll_demo/img
 # Build settings
 # permalink: date
 
-#highlighter: pygments
+highlighter: pygments
 markdown: redcarpet
 redcarpet:
   extensions: [fenced_code_blocks,no_intra_emphasis,strikethrough,no_intra_emphasis,autolink,tables]
