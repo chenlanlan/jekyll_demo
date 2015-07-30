@@ -1,0 +1,62 @@
+---
+title: Contact
+permalink: /contact/
+---
+
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <style type="text/css" media="screen">
+        .wrap1 {
+            margin: 0px;
+            margin-bottom: 200px;
+            #overflow: hidden;
+            #position: relative;
+            height: 100%;
+            text-align: center;
+            display:inline；
+        }
+        .wrap2 {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            text-align:center;
+            color:#4B0091;
+            font-family:verdana;
+        }
+        .wrap3 {
+            margin-top: 10px;
+            text-align:center;
+            font-size:300%;
+        }
+        .box {
+            text-align: center;
+            #position: relative;
+            display: inline-block;
+        }
+        @-webkit-keyframes firstlayer /* Safari 和 Chrome */ {
+            from {top: 200px;}
+            to {top: 0;}
+        }
+        img {
+            width: 200px;
+            margin:0px auto;
+            position: relative;
+            top:200px;
+        }
+    </style>
+    <body>
+        {% include header.html %}
+        <div class="wrap1">
+          <p><span class="box">
+            <a href="http://www.linkedin.com/in/SilanChen"><img src="img/about/linkedin.png" width="24" height="24"></a>
+            <a href="http://github.com/chenlanlan"><img src="img/about/github.png" 
+            width="24" height="24"></a>
+            <a href="https://www.facebook.com/profile.php?id=100006754483664"><img src="img/about/facebook.png" width="24" height="24"></a>
+            </span>
+            <span class="pull-right">
+            &#169; Silan Chen {{ site.time | date: '%Y' }} &middot; <a href="{{site.baseurl}}/about/">About Silan Chen</a><br />
+            </p>
+      </div>
+        {% include footer.html %}
+    </body>
+</html>
