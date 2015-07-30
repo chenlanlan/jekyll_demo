@@ -22,9 +22,6 @@ redcarpet:
       short_name : chensilan
 
 navigations:
-  - title: About
-    class: fa fa-list-ul
-    href: /about/
   - title: Archive
     class: fa fa-tags
     href: /archive/
@@ -34,6 +31,6 @@ navigations:
   - title: Tags
     class: fa fa-film
     href: /tags/
-  - title: Contact
+  - title: About
     class: fa fa-rss
     href: /contact/
