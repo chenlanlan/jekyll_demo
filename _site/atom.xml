@@ -7,6 +7,30 @@
         <atom:link href="//chensilan.me/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
+                <title>Merge Sort and Quick Sort</title>
+                        
+                
+                    <description>&lt;p&gt;Merge Sort&lt;/p&gt;
+</description>
+                
+                <pubDate>Thu, 30 Jul 2015 00:00:00 -0700</pubDate>
+                <link>//chensilan.me/code/2015/07/30/code/</link>
+                <guid isPermaLink="true">//chensilan.me/code/2015/07/30/code/</guid>
+            </item>
+        
+            <item>
+                <title>HighWay 1 Views</title>
+                        
+                
+                    <description>&lt;p&gt;&lt;img src=&quot;http://chenlanlan.github.io/jekyll_demo/img/blog/highway.jpg&quot; alt=&quot;highway&quot;&gt;&lt;/p&gt;
+</description>
+                
+                <pubDate>Wed, 29 Jul 2015 00:00:00 -0700</pubDate>
+                <link>//chensilan.me/travel/2015/07/29/Beautiful-views/</link>
+                <guid isPermaLink="true">//chensilan.me/travel/2015/07/29/Beautiful-views/</guid>
+            </item>
+        
+            <item>
                 <title>First Blog</title>
                         
                 
@@ -14,8 +38,8 @@
 </description>
                 
                 <pubDate>Mon, 27 Jul 2015 00:00:00 -0700</pubDate>
-                <link>//chensilan.me/2015/07/27/newBlog/</link>
-                <guid isPermaLink="true">//chensilan.me/2015/07/27/newBlog/</guid>
+                <link>//chensilan.me/test/2015/07/27/newBlog/</link>
+                <guid isPermaLink="true">//chensilan.me/test/2015/07/27/newBlog/</guid>
             </item>
         
             <item>
@@ -26,8 +50,8 @@
 </description>
                 
                 <pubDate>Mon, 27 Jul 2015 00:00:00 -0700</pubDate>
-                <link>//chensilan.me/2015/07/27/Hello-World/</link>
-                <guid isPermaLink="true">//chensilan.me/2015/07/27/Hello-World/</guid>
+                <link>//chensilan.me/test/2015/07/27/Hello-World/</link>
+                <guid isPermaLink="true">//chensilan.me/test/2015/07/27/Hello-World/</guid>
             </item>
         
     </channel>
