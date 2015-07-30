@@ -9,7 +9,7 @@ Merge Sort
 ```java
 public class MergeSort {
     public int[] MergeSort(int[] nums, int low, int high) {
-        if (low < high){
+        if (low < high) {
             int mid = (low + high) / 2;
             MergeSort(nums, low, mid);
             MergeSort(nums, mid + 1, high);
@@ -17,16 +17,16 @@ public class MergeSort {
         }
         return nums;
     }
-    public void merge(int[] nums, int low, int mid, int high){
+    public void merge(int[] nums, int low, int mid, int high) {
         int[] aux = nums.clone();
         int left = low;
         int right = mid + 1;
         int cur = low;
-        while (left <= mid ||right <= high){
-            if (right > high || left <= mid && aux[left] < aux[right]){
+        while (left <= mid ||right <= high) {
+            if (right > high || left <= mid && aux[left] < aux[right]) {
                 nums[cur] = aux[left];
                 left ++;
-            }else{
+            } else {
                 nums[cur] = aux[right];
                 right ++;
             }
@@ -42,21 +42,21 @@ Quick Sort
 ```java
 public class QuickSort {
     public int[] QuickSort(int[] nums, int low, int high) {
-        if (low < high){
+        if (low < high) {
             int j = partition(nums, low, high);
             QuickSort(nums, low, j - 1);
             QuickSort(nums, j + 1, high);
         }
         return nums;
     }
-    public int partition(int[] nums, int low, int high){
+    public int partition(int[] nums, int low, int high) {
         int temp = nums[low];
         while(low < high){
-            while(low < high && nums[high] > temp){
+            while (low < high && nums[high] > temp) {
                 high--;
             }
             nums[low] = nums[high];
-            while (low < high && nums[low] < temp){
+            while (low < high && nums[low] < temp) {
                 low++;
             }
             nums[high] = nums[low];
