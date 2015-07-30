@@ -6,7 +6,7 @@ categories: Code
 ---
 Merge Sort
 
-{{% hightlight java %}}
+```java
 public class MergeSort {
     public int[] MergeSort(int[] nums, int low, int high) {
         if (low < high){
@@ -38,8 +38,9 @@ public class MergeSort {
         return;
     }
  }
+```
 
-{{% endhighlight }}
+new
 
 Quick Sort
 
