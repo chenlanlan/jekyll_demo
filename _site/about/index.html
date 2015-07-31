@@ -31,37 +31,7 @@
 </script>
 </head>
 
-    <style type="text/css" media="screen">
-        .wrap1 {
-            margin: 0px;
-            margin-bottom: 200px;
-            #overflow: hidden;
-            #position: relative;
-            text-align: center;
-            display:inline；
-        }
-        .wrap2 {
-            margin-top: 40px;
-            margin-bottom: 40px;
-            text-align:center;
-            color:#4B0091;
-            font-family:verdana;
-        }
-        .wrap3 {
-            margin-top: 10px;
-            text-align:center;
-            font-size:300%;
-        }
-        .box {
-            text-align: center;
-            #position: relative;
-            display: inline-block;
-        }
-        @-webkit-keyframes firstlayer /* Safari 和 Chrome */ {
-            from {top: 200px;}
-            to {top: 0;}
-        }
-    </style>
+    <link rel="stylesheet" href="/Twd/css/pygments.css">
     <body>
         <header class="site-header">
     <div class="wrap">
@@ -103,19 +73,135 @@
     </div>
 </header>
 
-        <div class="wrap3">
-          <p>My Skills</p>
-        <p>
-        <div class="wrap1">
-            <div class="box">
-                <img id="img-1" src="http://chenlanlan.github.io/jekyll_demo/img/about/python.png" alt=""width="100" height="100"/>
-                <img id="img-2" src="http://chenlanlan.github.io/jekyll_demo/img/about/javalogo.png" alt="" width="100" height="100"/>
-                <img id="img-3" src="http://chenlanlan.github.io/jekyll_demo/img/about/git-logo.png" alt="" width="100" height="100"/>
-                <img id="img-4" src="http://chenlanlan.github.io/jekyll_demo/img/about/HTML5_logo.png" alt="" width="100" height="100"/>
+        <div class="page-content">
+            <div class="wrap">
+                <link rel="stylesheet" href="/Twd/css/pygments.css">
+<div class="post">
+
+    <header class="post-header">
+        <h1>About</h1>
+    </header>
+
+    <article class="post-content">
+        <style type="text/css" media="screen">
+.wrap1 {
+    margin: 100px;
+    margin-bottom: 50px;
+    #overflow: hidden;
+    #position: relative;
+    text-align: center;
+    display:inline；
+}
+.education {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    text-align:center;
+    color:#4B0091;
+    font-family:verdana;
+    font-weight: 50%;
+}
+.educontent {
+    margin-top:10px;
+    text-align:center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.wrap3 {
+    margin-top: 80px;
+    text-align:center;
+    font-size:120%;
+}
+.box {
+    text-align: center;
+    #position: relative;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+@-webkit-keyframes firstlayer /* Safari 和 Chrome */ {
+    from {top: 200px;}
+    to {top: 0;}
+}
+</style>
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <div class="row">
+     <div class="col-md-3">
+         <!-- Nav tabs -->
+         <ul class="nav nav-pills nav-stacked" id="tab-nav">
+          <li class="active"><a href="#About" data-toggle="tab">Contact</a></li>
+          <li><a href="#Education" data-toggle="tab">Education</a></li>
+          <li><a href="#skills" data-toggle="tab">Skills</a></li>
+      </ul>
+  </div>
+  <div class="col-md-9">
+      <!-- Tab panes -->
+      <div class="tab-content" style="margin:20px;height:300px;">
+          <div class="tab-pane" id="About">
+                 <h1>Silan Chen</h1>
+                 <li><b>Email:  </b>silan0318@gmail.com</li>
+          </div>
+          <div class="tab-pane" id="Education">
+              <div class="wrap3">
+                 <p><b>Education</b></p>
+              </div>
+              <div class="education">
+                 <p>China Institute of Water resources and Hydropower Research (IWHR), Beijing, China</p>
+              </div>
+              <div class="educontent">
+                   <p>Sep. 2013 - Jul. 2016</p>
+                   <p>Master of Water Resources Engineering</p>
+              </div>
+              <div class="education">
+                 <p>Tsinghua University, Beijing, China </p>
+              </div>
+              <div class="educontent">
+                    <p>Sep. 2009 - Jul. 2013</p>
+                    <p>Bachelor of Hydraulic Engineering</p>
+              </div>
+          </div>
+          <div class="tab-pane" id="skills">
+              <div class="wrap3">
+                 <p><b>My Skills</b></p>
+              </div>
+              <p>
+                 <div class="wrap1">
+                    <div class="box">
+                        <img id="img-1" src="http://chenlanlan.github.io/jekyll_demo/img/about/python.png" alt=""width="100" height="100"/>
+                        <img id="img-2" src="http://chenlanlan.github.io/jekyll_demo/img/about/javalogo.png" alt="" width="100" height="100"/>
+                        <img id="img-3" src="http://chenlanlan.github.io/jekyll_demo/img/about/git-logo.png" alt="" width="100" height="100"/>
+                        <img id="img-4" src="http://chenlanlan.github.io/jekyll_demo/img/about/HTML5_logo.png" alt="" width="100" height="100"/>
+                    </div>
+                 </div>
+               </p>
+          </div>
+          <div class="tab-pane" id="contact">
+              
+          </div>
+
+</div>
+</div>
+<div>
+<script>
+$('#tab-nav a').click(function (e) {
+    e.preventDefault() 
+$(this).tab('show') //使用div来控制页面的切换
+ ;
+})
+</script>
+</body>
+
+
+
+    </article>
+
+</div>
+
             </div>
-            </div>
-      </div>
-      </p>
+        </div>
         <footer class="site-footer">
     <div class="wrap">
         <div class="footer-col-1 column">
@@ -152,5 +238,45 @@
     <div class="scroll-top"><i class="fa fa-arrow-circle-up"></i></div>
 </footer>
 
+
+        <!-- mathjax -->
+        <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+        </script>
+        <script type="text/javascript"
+                src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        <!-- highlight -->
+        <script src="/js/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <!-- pleace change it! -->
+        <script type="text/javascript">
+var duoshuoQuery = {short_name:"taizilongxu"};
+(function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+        </script>
+        <!-- top-scrooll -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.js"></script>
+        <script type="text/javascript">
+$(window).scroll(function() {
+    if($(this).scrollTop() > 100) {
+        $('.scroll-top').fadeIn(200);
+    } else {
+        $('.scroll-top').fadeOut(200);
+    }
+});
+$('.scroll-top').bind('click', function(e) {
+    e.preventDefault();
+    $('body,html').animate({scrollTop:0},200);
+});
+        </script>
     </body>
 </html>

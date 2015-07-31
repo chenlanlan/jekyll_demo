@@ -1,70 +1,117 @@
 ---
+layout: page
 title: About
 permalink: /about/
 ---
+<style type="text/css" media="screen">
+.wrap1 {
+    margin: 100px;
+    margin-bottom: 50px;
+    #overflow: hidden;
+    #position: relative;
+    text-align: center;
+    display:inline；
+}
+.education {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    text-align:center;
+    color:#4B0091;
+    font-family:verdana;
+    font-weight: 50%;
+}
+.educontent {
+    margin-top:10px;
+    text-align:center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.wrap3 {
+    margin-top: 80px;
+    text-align:center;
+    font-size:120%;
+}
+.box {
+    text-align: center;
+    #position: relative;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+@-webkit-keyframes firstlayer /* Safari 和 Chrome */ {
+    from {top: 200px;}
+    to {top: 0;}
+}
+</style>
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <div class="row">
+     <div class="col-md-3">
+         <!-- Nav tabs -->
+         <ul class="nav nav-pills nav-stacked" id="tab-nav">
+          <li class="active"><a href="#About" data-toggle="tab">Contact</a></li>
+          <li><a href="#Education" data-toggle="tab">Education</a></li>
+          <li><a href="#skills" data-toggle="tab">Skills</a></li>
+      </ul>
+  </div>
+  <div class="col-md-9">
+      <!-- Tab panes -->
+      <div class="tab-content" style="margin:20px;height:300px;">
+          <div class="tab-pane" id="About">
+                 <h1>Silan Chen</h1>
+                 <li><b>Email:  </b>silan0318@gmail.com</li>
+          </div>
+          <div class="tab-pane" id="Education">
+              <div class="wrap3">
+                 <p><b>Education</b></p>
+              </div>
+              <div class="education">
+                 <p>China Institute of Water resources and Hydropower Research (IWHR), Beijing, China</p>
+              </div>
+              <div class="educontent">
+                   <p>Sep. 2013 - Jul. 2016</p>
+                   <p>Master of Water Resources Engineering</p>
+              </div>
+              <div class="education">
+                 <p>Tsinghua University, Beijing, China </p>
+              </div>
+              <div class="educontent">
+                    <p>Sep. 2009 - Jul. 2013</p>
+                    <p>Bachelor of Hydraulic Engineering</p>
+              </div>
+          </div>
+          <div class="tab-pane" id="skills">
+              <div class="wrap3">
+                 <p><b>My Skills</b></p>
+              </div>
+              <p>
+                 <div class="wrap1">
+                    <div class="box">
+                        <img id="img-1" src="{{ site.img_url }}/about/python.png" alt=""width="100" height="100"/>
+                        <img id="img-2" src="{{ site.img_url }}/about/javalogo.png" alt="" width="100" height="100"/>
+                        <img id="img-3" src="{{ site.img_url }}/about/git-logo.png" alt="" width="100" height="100"/>
+                        <img id="img-4" src="{{ site.img_url }}/about/HTML5_logo.png" alt="" width="100" height="100"/>
+                    </div>
+                 </div>
+               </p>
+          </div>
+          <div class="tab-pane" id="contact">
+              
+          </div>
 
-<!DOCTYPE html>
-<html>
-    {% include head.html %}
-    <style type="text/css" media="screen">
-        .wrap1 {
-            margin-top: 1000px;
-            margin-bottom: 200px;
-            #overflow: hidden;
-            #position: relative;
-            text-align: center;
-            display:inline；
-        }
-        .education {
-            margin-top: 40px;
-            margin-bottom: 40px;
-            text-align:center;
-            color:#4B0091;
-            font-family:verdana;
-        }
-        .wrap3 {
-            margin-top: 500px;
-            text-align:center;
-            font-size:150%;
-        }
-        .box {
-            text-align: center;
-            #position: relative;
-            display: inline-block;
-        }
-        @-webkit-keyframes firstlayer /* Safari 和 Chrome */ {
-            from {top: 200px;}
-            to {top: 0;}
-        }
-    </style>
-    <body>
-        {% include header.html %}
-        <div class="wrap3">
-            <p>Education</p>
-        <p>
-            <div class="education">
-                <h1>China Institute of Water resources and Hydropower Research (IWHR), Beijing, China</h1>
-                <ul>
-                    <li>Sep. 2009 - Jul. 2013</li>
-                    <li>Master of Water Resources Engineering</li>
-                    <l1>GPA: 91/100 (Rank 1/33)</li>
-                </ul>
-            </div>
-        <p>
-        <div class="wrap3">
-          <p>Education</p>
-          <p>My Skills</p>
-        <p>
-        <div class="wrap1">
-            <div class="box">
-                <img id="img-1" src="{{ site.img_url }}/about/python.png" alt=""width="100" height="100"/>
-                <img id="img-2" src="{{ site.img_url }}/about/javalogo.png" alt="" width="100" height="100"/>
-                <img id="img-3" src="{{ site.img_url }}/about/git-logo.png" alt="" width="100" height="100"/>
-                <img id="img-4" src="{{ site.img_url }}/about/HTML5_logo.png" alt="" width="100" height="100"/>
-            </div>
-            </div>
-      </div>
-      </p>
-        {% include footer.html %}
-    </body>
-</html>
+</div>
+</div>
+<div>
+<script>
+$('#tab-nav a').click(function (e) {
+    e.preventDefault() 
+$(this).tab('show') //使用div来控制页面的切换
+ ;
+})
+</script>
+</body>
+
+
