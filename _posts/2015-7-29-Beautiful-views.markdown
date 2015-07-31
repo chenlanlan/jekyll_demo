@@ -9,4 +9,3 @@ categories: Travel
 HighWay 1
 Beautiful seaside and beautiful weahter!
 
-{{ page.date | date_to_string }}

@@ -7,4 +7,3 @@ categories: Test
 
 Hello World.
 
-{{ page.date | date_to_string }}

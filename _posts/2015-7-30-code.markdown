@@ -67,4 +67,3 @@ public class QuickSort {
 }
 ```
 
-{{ page.date | date_to_string }}
