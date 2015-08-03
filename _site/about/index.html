@@ -137,68 +137,59 @@
     <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <div class="row">
-     <div class="col-md-3">
-         <!-- Nav tabs -->
-         <ul class="nav nav-pills nav-stacked" id="tab-nav">
-          <li class="active"><a href="#About" data-toggle="tab">Contact</a></li>
-          <li><a href="#Education" data-toggle="tab">Education</a></li>
-          <li><a href="#skills" data-toggle="tab">Skills</a></li>
-      </ul>
+    <ul class="nav nav-tabs" id="myTab">
+     <li class="active"><a href="#About">About</a></li>
+     <li><a href="#Education">Education</a></li>
+     <li><a href="#Skills">Skills</a></li>
+  </ul>
+ 
+<div class="tab-content">
+  <div class="tab-pane active" id="About">
+    <div class="wrap3">
+    <p>Silan Chen</p>
+    <li><b>Email:  </b>silan0318@gmail.com</li>
   </div>
-  <div class="col-md-9">
-      <!-- Tab panes -->
-      <div class="tab-content" style="margin:20px;height:300px;">
-          <div class="tab-pane" id="About">
-                 <h1>Silan Chen</h1>
-                 <li><b>Email:  </b>silan0318@gmail.com</li>
+  </div>
+  <div class="tab-pane" id="Education">
+    <div class="wrap3">
+          <p><b>Education</b></p>
+    </div>
+    <div class="education">
+         <p>China Institute of Water resources and Hydropower Research (IWHR), Beijing, China</p>
+    </div>
+    <div class="educontent">
+        <li>Sep. 2013 - Jul. 2016</li>
+        <li>Master of Water Resources Engineering</li>
+    </div>
+    <div class="education">
+       <p>Tsinghua University, Beijing, China </p>
+    </div>
+    <div class="educontent">
+      <li>Sep. 2009 - Jul. 2013</li>
+      <li>Bachelor of Hydraulic Engineering</li>
+    </div>
+  </div>
+  <div class="tab-pane" id="Skills">
+    <div class="wrap3">
+        <p><b>My Skills</b></p>
+    </div>
+    <p>
+      <div class="wrap1">
+          <div class="box">
+              <img id="img-1" src="http://chenlanlan.github.io/jekyll_demo/img/about/python.png" alt=""width="100" height="100"/>
+              <img id="img-2" src="http://chenlanlan.github.io/jekyll_demo/img/about/javalogo.png" alt="" width="100" height="100"/>
+              <img id="img-3" src="http://chenlanlan.github.io/jekyll_demo/img/about/git-logo.png" alt="" width="100" height="100"/>
+              <img id="img-4" src="http://chenlanlan.github.io/jekyll_demo/img/about/HTML5_logo.png" alt="" width="100" height="100"/>
           </div>
-          <div class="tab-pane" id="Education">
-              <div class="wrap3">
-                 <p><b>Education</b></p>
-              </div>
-              <div class="education">
-                 <p>China Institute of Water resources and Hydropower Research (IWHR), Beijing, China</p>
-              </div>
-              <div class="educontent">
-                   <p>Sep. 2013 - Jul. 2016</p>
-                   <p>Master of Water Resources Engineering</p>
-              </div>
-              <div class="education">
-                 <p>Tsinghua University, Beijing, China </p>
-              </div>
-              <div class="educontent">
-                    <p>Sep. 2009 - Jul. 2013</p>
-                    <p>Bachelor of Hydraulic Engineering</p>
-              </div>
-          </div>
-          <div class="tab-pane" id="skills">
-              <div class="wrap3">
-                 <p><b>My Skills</b></p>
-              </div>
-              <p>
-                 <div class="wrap1">
-                    <div class="box">
-                        <img id="img-1" src="http://chenlanlan.github.io/jekyll_demo/img/about/python.png" alt=""width="100" height="100"/>
-                        <img id="img-2" src="http://chenlanlan.github.io/jekyll_demo/img/about/javalogo.png" alt="" width="100" height="100"/>
-                        <img id="img-3" src="http://chenlanlan.github.io/jekyll_demo/img/about/git-logo.png" alt="" width="100" height="100"/>
-                        <img id="img-4" src="http://chenlanlan.github.io/jekyll_demo/img/about/HTML5_logo.png" alt="" width="100" height="100"/>
-                    </div>
-                 </div>
-               </p>
-          </div>
-          <div class="tab-pane" id="contact">
-              
-          </div>
-
+      </div>
+    </p>
+  </div>
 </div>
-</div>
-<div>
+ 
 <script>
-$('#tab-nav a').click(function (e) {
-    e.preventDefault() 
-$(this).tab('show') //使用div来控制页面的切换
- ;
+  $('#myTab a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
 })
 </script>
 </body>
