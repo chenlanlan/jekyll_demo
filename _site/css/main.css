@@ -26,12 +26,26 @@ a:visited { color: #7C7C7C; }
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
-    max-width: 830px;
+    max-width: 1200px;
     margin: 0 auto;
     zoom: 1;
     text-align: left;
 }
 
+/* Button */
+.btn-primary-sl {
+    color: white;
+    background-color: #4DAAFB;
+}
+.btn-primary-sl.focus,
+.btn-primary-sl:focus {
+    color:white;
+    background-color: #2696F8;
+}
+.btn-primary-sl:hover {
+    color:white;
+    background-color: #2696F8;
+}
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
