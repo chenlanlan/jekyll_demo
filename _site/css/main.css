@@ -52,6 +52,31 @@ a:visited { color: #7C7C7C; }
   background-color: transparent;
   border-color: red;
 }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      max-height: 600px;
+      margin: auto;
+  }
+  .thumbnail-sl {
+    margin:120px 80px 50px 50px;
+  }
+  .btn-outline-inverse {
+  color:white;
+  background-color: transparent;
+  border-color: white;
+}
+.btn-outline-inverse:hover {
+    color:white;
+    background-color: #2696F8;
+}
+.text-color {
+  color:#6A6D72;
+}
+.text-strong {
+    font-weight: 20px;
+}
+
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
